@@ -1,14 +1,12 @@
-## Day 5 - [Date]
-
-**DSA Practice:**
+## Day 5 - June 25, 2025
 - Implemented recursive function to print middle element of a stack
 - Wrote logic to check if a stack is sorted (preserving stack)
 - Solved:
   - Valid Parentheses
   - Redundant Parentheses
 
-**Reflections:**
-Didn't do a lot, but didn’t skip either. Slowly building consistency.
+
+- Didn't do a lot, but didn’t skip either. Slowly building consistency.
 
 ---
 
