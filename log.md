@@ -1,3 +1,10 @@
+## Day 6 – June 26, 2025
+- Solved the “Asteroid Collision” problem (Stack)  
+- Felt like 10x effort due to poor sleep and nervous system flares  
+- Still showed up and got it done — consistency over comfort
+
+
+
 ## Day 5 - June 25, 2025
 - Implemented recursive function to print middle element of a stack
 - Wrote logic to check if a stack is sorted (preserving stack)
