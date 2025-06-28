@@ -1,3 +1,25 @@
+## Day 8 - June 28, 2025
+
+### ✅ What I did today:
+- 🔁 Implemented circular deque.
+- 🌡️ Solved **Daily Temperatures** using a monotonic stack.
+- 🔢 Solved **Next Greater Node In Linked List** using recursion + stack.
+- 🧮 Tried solving **Remove K Digits** — learned it's a greedy problem, struggled due to not having done greedy yet. Had to watch the video to understand it.
+- 🧑‍🤝‍🧑 Solved **Celebrity Problem**
+- 📈 Solved **Stock Span Problem** — understood and implemented the optimal monotonic stack solution.
+
+### 💡 Key Concepts:
+- Monotonic Stack for efficient span/next element type problems.
+- Streaming/online questions where you maintain state.
+- Greedy intuition still needs work; will explore soon.
+- Still showing up despite health and mental fatigue.
+
+### 📌 Notes:
+- Some questions were hard to think through due to health fog.
+- Watched video for “Remove K Digits” — greedy is hard without prior exposure.
+
+---
+
 ## Day 7 — June 27, 2025
 
 ✅ Practiced Monotonic Stack Patterns:
@@ -18,12 +40,14 @@
 
 ⏱️ Progress wasn't rushed — stayed consistent, kept building.
 
+---
+
 ## Day 6 – June 26, 2025
 - Solved the “Asteroid Collision” problem (Stack)  
 - Felt like 10x effort due to poor sleep and nervous system flares  
 - Still showed up and got it done — consistency over comfort
 
-
+---
 
 ## Day 5 - June 25, 2025
 - Implemented recursive function to print middle element of a stack
