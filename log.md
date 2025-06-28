@@ -1,3 +1,23 @@
+## Day 7 — June 27, 2025
+
+✅ Practiced Monotonic Stack Patterns:
+- 🔸 Next Smaller Element
+- 🔸 Previous Smaller Element
+- 🔸 Largest Rectangle in Histogram (Optimized using NSE/PSE logic)
+
+✅ Learned Queue Data Structure:
+- 🔹 Basics and operations (push, pop, front, rear)
+- 🔹 Implemented Normal Queue using Arrays
+- 🔹 Implemented Circular Queue
+- 🔹 Implemented Deque (Double-Ended Queue)
+
+🧠 Key Learnings:
+- How monotonic stacks help optimize brute-force O(N^2) rectangle area to O(N)
+- Queue edge cases: full/empty detection, circular wrap-around logic
+- Deque flexibility and array limitations in push_front/back handling
+
+⏱️ Progress wasn't rushed — stayed consistent, kept building.
+
 ## Day 6 – June 26, 2025
 - Solved the “Asteroid Collision” problem (Stack)  
 - Felt like 10x effort due to poor sleep and nervous system flares  
