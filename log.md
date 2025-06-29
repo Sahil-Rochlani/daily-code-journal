@@ -1,3 +1,25 @@
+### Day 9 - June 29, 2025
+
+### ✅ What I did today:
+- 🧠 Designed **Browser History** (both 2-stack and pointer/index-based approaches).
+- 🔁 Implemented **Queue using Stack** (optimized with two stacks).
+- 📁 Solved **Simplify Path** (manually and explored `stringstream + getline` method).
+- 🧩 Solved **Sudoku Solver** using backtracking.
+- ☎️ Solved **Letter Combinations of a Phone Number** using recursion + hashmap.
+
+### 💡 Key Concepts:
+- Stack-based design & backtracking recursion.
+- Explored string parsing using `stringstream` for path simplification.
+- Improved understanding of recursive tree generation (letter combinations).
+- Getting more comfortable with clean, optimal stack logic.
+
+### 📌 Notes:
+- Today was a tough one mentally. Couldn’t think clearly at times.
+- Still pushed through and solved questions step-by-step.
+- Getting stuck is frustrating, but I’m proud I showed up and tried.
+
+---
+
 ## Day 8 - June 28, 2025
 
 ### ✅ What I did today:
