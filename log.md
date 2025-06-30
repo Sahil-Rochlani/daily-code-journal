@@ -1,3 +1,11 @@
+### Day 10 - June 30, 2025
+
+### ✅ What I did today:
+- 🔁 Revised all DSA problems solved in the past week.
+- 🧠 Focused on strengthening concepts, not adding new ones today.
+
+---
+
 ### Day 9 - June 29, 2025
 
 ### ✅ What I did today:
