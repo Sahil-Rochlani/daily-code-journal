@@ -1,3 +1,19 @@
+### 📅 Day 11 - July 1, 2025
+
+### ✅ What I did today:
+- 🚗 Solved **Car Fleet I** — used sorting + greedy stack logic to group cars into fleets based on arrival times.
+- 🚗💥 Cracked **Car Fleet II** — handled dynamic collision timing. Simulated real-time speed changes and adjusted collision calculations accordingly.
+- 🧱 Solved **Maximal Rectangle** — transformed each matrix row into histograms and applied stack logic from Largest Rectangle in Histogram to find max area.
+
+### 🔄 Up Next:
+- Finish remaining stack problems.
+- Begin queue questions in the upcoming class.
+
+### 💬 Reflection:
+Today’s problems were tough but full of breakthroughs. Stack patterns turned out way deeper than I imagined — from simulating collisions to transforming matrix problems.
+
+---
+
 ### Day 10 - June 30, 2025
 
 ### ✅ What I did today:
