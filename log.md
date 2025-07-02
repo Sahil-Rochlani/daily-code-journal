@@ -1,3 +1,26 @@
+### Day 12 – July 2, 2025
+### ✅ What I did today:
+- 🔁 Practiced Reversing a Queue using both stack and recursion.
+- 🧩 Implemented Reverse Queue in Groups of k using recursion.
+- 📉 Solved First Negative Integer in Every Window of Size k using deque.
+- 📊 Solved Sum of Subarray Minimums using monotonic stack + contribution technique.
+- 📈 Solved Sum of Subarray Ranges by calculating min and max contributions separately.
+
+### 💡 Key Concepts:
+- Queue reversal using stack and recursion.
+- Group-wise processing in queues using recursion.
+- Deque as an efficient tool for window-based problems.
+- Contribution-based thinking for subarray-based range calculations.
+- Monotonic stack mastery getting stronger.
+
+### 📌 Notes:
+- Finally understood when and why to use strict vs non-strict comparisons in stack-based problems with duplicates.
+- Subarray range questions are tricky but fun once the pattern clicks.
+- Feeling more confident in combining stack logic with sliding window techniques.
+- Grateful I got time to study before the vaidya visit and class later today.
+
+---
+
 ### 📅 Day 11 - July 1, 2025
 
 ### ✅ What I did today:
