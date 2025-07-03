@@ -1,4 +1,25 @@
+### Day 13 - July 3, 2025
+
+### ✅ What I did today:
+- 🧮 Solved **Sum of Subarray Minimums** using monotonic stacks (with contribution technique).
+- 📊 Solved **Sum of Subarray Ranges** by handling both min and max contributions.
+- 💧 Learned and implemented **Trapping Rainwater** using prefix arrays and two-pointer approach.
+
+### 💡 Key Concepts:
+- Contribution technique using monotonic stacks (prev/next smaller/greater).
+- Handling duplicates correctly in contribution-based problems.
+- Trapping rainwater intuition with left-max and right-max logic.
+
+### 🧠 Notes:
+- Got stuck initially but broke through by reflecting on patterns from previous problems.
+- Feeling a bit tired, but still showed up and learned something solid.
+- Choosing to stay grounded and not chase overachievement. Just consistent growth.
+
+
+---
+
 ### Day 12 – July 2, 2025
+
 ### ✅ What I did today:
 - 🔁 Practiced Reversing a Queue using both stack and recursion.
 - 🧩 Implemented Reverse Queue in Groups of k using recursion.
