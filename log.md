@@ -1,3 +1,30 @@
+### Day 14 – July 4, 2025
+
+---
+
+### ✅ What I did today:
+- 🔁 Solved **Decode String** using recursion.
+- 🔥 Solved **Next Greater Element II** with a monotonic stack (circular array).
+- 🧠 Solved **Longest Valid Parentheses** using stack + edge tracking.
+- 🧮 Solved **Partition List**, **Add Two Numbers**, and **Split Linked List in Parts** — strong pointer practice.
+
+---
+
+### 💡 Key Concepts:
+- Recursive decoding of nested patterns.
+- Monotonic stack for circular arrays and NGE patterns.
+- Valid parentheses via stack and boundary tracking.
+- Clean linked list operations (splitting, merging, recursive carry handling).
+
+---
+
+### 🧠 Notes:
+- Longest Valid Parentheses felt tricky but rewarding.
+- Making fewer mistakes in recursion and pointer problems — progress!
+- Kept it honest, skipped LC 430 for now to revisit with fresh mind tomorrow.
+
+---
+
 ### Day 13 - July 3, 2025
 
 ### ✅ What I did today:
