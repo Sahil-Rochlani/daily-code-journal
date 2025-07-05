@@ -1,3 +1,22 @@
+### Day 15 - July 5, 2025
+
+### ✅ What I did today:
+- 🧱 Solved **Flatten a Multilevel Doubly Linked List** (Leetcode 430).
+  - Tried multiple approaches (recursive + stack).
+  - Spent 2 hours trying to understand nuances of recursion, tail connections, and traversal.
+  - Slower method helped me realize how small choices affect runtime.
+
+- ♻️ **Did Weekly Revision** of Stack Concepts:
+  - Monotonic stacks
+  - Nearest greater/smaller elements
+
+### 🧠 Notes:
+- Got frustrated but didn’t quit.
+- Not every day has to be productive on paper — some are meant to **deepen understanding**.
+- Staying grounded. Even one question can teach a lot.
+
+---
+
 ### Day 14 – July 4, 2025
 
 ---
