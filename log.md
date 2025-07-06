@@ -1,3 +1,30 @@
+### Day 16 – July 6, 2025
+
+### ✅ What I did today:
+- 🔐 Completed `authenticate` and `authorizeRole` middlewares using JWT and role-based access control.
+- 🧱 Finalized Mongoose schemas for `User`, `Slot`, and `Appointment`.
+- ♻️ Revised all DSA problems solved during the week — reinforced stack, LL, and sorting logic.
+
+---
+
+### 💡 Key Concepts:
+- Middleware pattern: token check (`authenticate`) vs role control (`authorizeRole(...roles)`).
+- Schema design choices: normalized references vs duplication (slot → appointment → professor).
+- Used single `slotTime` as `Date` for better sorting/filtering.
+
+---
+
+### 🧠 Notes:
+- Feeling much more confident with backend flow now.
+- Logic feels lighter now that structure is clean.
+- Excited to build out controllers and wire the full flow next.
+
+---
+
+📁 **GitHub Repo:** [student-professor-slot-booking](https://github.com/your-username/student-professor-slot-booking)
+
+---
+
 ### Day 15 - July 5, 2025
 
 ### ✅ What I did today:
