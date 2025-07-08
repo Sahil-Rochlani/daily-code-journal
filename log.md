@@ -1,3 +1,28 @@
+### Day 17 – July 7, 2025
+
+### ✅ What I did today:
+- 🧠 Completed all backend controllers for the internship assignment.
+- 🗂️ Built full CRUD logic for slots and appointments: create, view, delete, and cancel.
+- 🛡️ Added protections to ensure only professors can manage their own slots and appointments.
+- ⛔ Prevented double bookings and ensured unbooking logic works on appointment cancellation.
+
+---
+
+### 💡 Key Concepts:
+- Controller responsibility separation: slot creation, appointment booking, and cancellation in isolated functions.
+- Date validation and comparison to avoid booking past slots.
+- `populate` usage to fetch related documents like professor/student info cleanly.
+- Ensured `isBooked` is reset when an appointment is canceled.
+
+---
+
+### 🧠 Notes:
+- This was the most complete backend I’ve written so far — feels like a real product flow.
+- The logic and edge cases are finally making sense without mental overload.
+- Final steps left: write documentation, record demo, and prepare submission.
+
+---
+
 ### Day 16 – July 6, 2025
 
 ### ✅ What I did today:
