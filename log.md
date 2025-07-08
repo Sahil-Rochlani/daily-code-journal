@@ -1,3 +1,20 @@
+## Day 18 – #100DaysOfCode
+
+**Date:** July 8, 2025  
+**Focus:** DSA (Morning Session)
+
+### ✅ What I Did
+- Solved 2 DSA questions in the morning
+
+### 📌 Notes
+- Stayed consistent despite limited time
+- Keeping the streak alive — progress over perfection
+
+### 🧠 Takeaway
+Small steps still count. Just showing up matters.
+
+---
+
 ### Day 17 – July 7, 2025
 
 ### ✅ What I did today:
