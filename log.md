@@ -1,3 +1,30 @@
+### Day 19 – July 9, 2025
+
+### ✅ What I did today:
+- 🌳 Started learning **Trees** in DSA.
+- 🔨 Built binary trees manually.
+- 🔁 Implemented **Preorder**, **Inorder**, **Postorder** traversals.
+- 📶 Learned **Level Order Traversal**, including the variant that prints each level on a new line.
+- 📏 Implemented logic to calculate the **height/depth** of a binary tree.
+- 📐 Solved for the **diameter** (longest path) of a binary tree.
+
+---
+
+### 💡 Key Concepts:
+- Recursive tree traversals and their order of execution.
+- BFS logic behind level order traversal and how to control level separation using queue size.
+- Height of a binary tree = max depth of its left and right subtree + 1.
+- Diameter involves combining left and right subtree depths at each node.
+
+---
+
+### 🧠 Notes:
+- Trees are powerful but a bit overwhelming on Day 1.
+- Definitely need a solid revision to internalize all traversal patterns and logic.
+- Feels like I’m entering a new level in DSA — exciting and intense!
+
+---
+
 ## Day 18 – #100DaysOfCode
 
 **Date:** July 8, 2025  
