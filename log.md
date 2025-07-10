@@ -1,3 +1,34 @@
+### Day 20 – July 10, 2025
+
+### ✅ What I did today:
+- ✅ Finished **full backend documentation** for my **College Appointment System**.
+- 🧪 Wrote and successfully ran a **complete E2E test suite** with Supertest.
+- 🎥 Recorded a **22-minute backend code walkthrough** (explained line-by-line).
+- 🔊 Fought major issues with **OBS + Bluetooth audio** — finally figured out how to record voice with proper settings.
+- 📂 Organized cookies, IDs, and Postman data for the upcoming demo.
+
+---
+
+### 💡 Key Concepts:
+- Zod validation schemas for `signup`, `signin`, and slot creation.
+- Role-based access control using middleware (`authenticate`, `authorizeRole`).
+- Structuring controllers to handle different flows: booking, cancelling, retrieving.
+- `populate()` and filtering in MongoDB to structure nested response objects.
+
+---
+
+### 🧠 Notes:
+- Exhausted but proud — building and explaining the entire system made me feel like a real developer.
+- Hit multiple roadblocks, especially with OBS audio issues, but solved them all.
+- Gained a deeper understanding of writing clean comments and minimal docs without sounding "AI-generated".
+- Tomorrow: Final Postman video + submission ✅
+
+---
+
+📁 **GitHub Repo:** [student-professor-slot-booking](https://github.com/your-username/student-professor-slot-booking)
+
+---
+
 ### Day 19 – July 9, 2025
 
 ### ✅ What I did today:
