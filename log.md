@@ -1,3 +1,45 @@
+### Day 21 – July 11, 2025
+
+### ✅ What I did today:
+- ✅ Solved 4 binary tree problems focused on recursion, depth, and path-based logic.
+- 🌲 Continued gaining comfort with tree traversal patterns and base case intuition.
+- 💡 Understood when and why recursion stays O(N) despite branching.
+- 🧪 Practiced identifying base conditions and applying backtracking correctly.
+
+---
+
+### 📚 Questions Solved:
+
+1. **Check if a Binary Tree is Height Balanced**
+   - Used recursive depth check for each subtree.
+   - Time complexity: O(N²) due to repeated depth calculations.
+   - Plan to optimize using a bottom-up approach later.
+
+2. **Lowest Common Ancestor of Two Nodes**
+   - Classic recursive approach with subtree analysis.
+   - If one node is found in each subtree, current node is LCA.
+   - Time complexity: O(N)
+
+3. **Check if a Path With Given Sum Exists**
+   - Simple recursive check for root-to-leaf path with target sum.
+   - Base condition checks if `targetSum - val == 0` at a leaf.
+   - Time complexity: O(N)
+
+4. **Find All Root-to-Leaf Paths With Given Sum**
+   - Backtracking approach using path vector and DFS.
+   - Appended path when valid, then backtracked using `pop_back()`.
+   - Time complexity: O(N²) in worst case due to copying paths.
+
+---
+
+### 🧠 Notes:
+- Tree recursion feels more natural now — able to write and trace logic confidently.
+- Learned to identify where backtracking is needed vs. plain recursion.
+- Starting to visualize recursive calls and base cases better without drawing.
+- All 4 problems done in a focused flow — one of my best DSA days so far!
+
+---
+
 ### Day 20 – July 10, 2025
 
 ### ✅ What I did today:
