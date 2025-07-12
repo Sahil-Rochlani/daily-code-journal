@@ -14,6 +14,7 @@ class Node{
         }
 };
 
+//approach 1: O(N ^ 2)
 int maxDepth(Node* root){
     if(!root)return NULL;
     return 1 + max(maxDepth(root->left), maxDepth((root->right)));
@@ -32,4 +33,19 @@ int largestDiameterOfBinaryTree(Node* root){
     int o3 = largestDiameterOfBinaryTree(root->right);
 
     return max(o1, max(o2, o3));
+}
+
+//approach 2: optimized O(n)
+
+int maxDepth(Node* root, int &ans) {
+    if(!root)return 0;
+    int left = maxDepth(root->left, ans);
+    int right = maxDepth(root->right, ans);
+    ans = max(ans, left + right);
+    return 1 + max(left, right);
+}
+int diameterOfBinaryTree(Node* root) {
+    int ans = -1;
+    maxDepth(root, ans);
+    return ans;
 }

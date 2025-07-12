@@ -1,3 +1,49 @@
+### ✅ Day 22 – July 9, 2025
+
+### 📚 Topics:
+- Binary Tree Traversals & Structural Properties
+- Depth-first Recursion
+- Height / Balance Checking
+- Optimized Tree Logic
+
+---
+
+### 🧠 Questions Solved:
+
+1. **isSameTree**
+   - Checked if two binary trees are structurally and value-wise identical.
+   - Recursive comparison of corresponding nodes.
+
+2. **Right Side View**
+   - DFS with level tracking to push the first visible node from the right per level.
+
+3. **Zigzag Level Order Traversal**
+   - ✅ First approach: queue + null marker + reverse on alternate levels.
+   - ✅ Optimized: index-based placement, no reversing, no extra space.
+
+4. **Diameter of Binary Tree**
+   - Optimized O(N) approach using postorder traversal.
+   - Tracked max diameter during depth calculation.
+
+5. **Check if Binary Tree is Height Balanced**
+   - Avoided redundant calls by returning `-1` for unbalanced subtrees.
+   - Optimized bottom-up O(N) solution.
+
+---
+
+### 🔁 Revisions:
+- Reviewed previous tree questions.
+- Reinforced understanding of tree depth and level order techniques.
+
+---
+
+### 🧠 Reflections:
+- Today was more about **refining patterns** and writing **cleaner, optimized code**.
+- Didn’t peek at any answers — recreated solutions from understanding.
+- 5 deep problems + 2–3 revisions = a meaningful, focused day.
+
+---
+
 ### Day 21 – July 11, 2025
 
 ### ✅ What I did today:
