@@ -1,4 +1,29 @@
-### ✅ Day 22 – July 9, 2025
+### Day 23 – July 13, 2025
+
+### ✅ What I Did
+- 🔥 **Solved “Sum of the Longest Bloodline” (Hard)** — nailed it first try with pure recursion logic.
+- 🧠 **Revision Sprint (1.5 hrs)** — reviewed 12 problems from the week:
+  - Tree: `isSameTree`, `Right Side View`, `Path Sum I & II`, `Diameter`, `Balanced Tree`, `Max Depth`, `LCA`, `Sum of Longest Bloodline`
+  - Logic: `Gas Station` (Greedy), `First Non-Repeating Char` (Queue), `Sliding Window Maximum` (Deque)
+
+### 📌 Concepts Covered
+- Tree recursion + DFS
+- Depth tracking and backtracking
+- Greedy logic (Gas Station)
+- Monotonic deque (Sliding Window)
+- Queue simulation for stream tracking
+
+### ⏱ Time Spent
+1.5 hours
+
+### 🌱 Thoughts
+Full focus session. Brain = fried.  
+But streak = alive.  
+Internship starts tomorrow — we keep building.
+
+---
+
+### ✅ Day 22 – July 12, 2025
 
 ### 📚 Topics:
 - Binary Tree Traversals & Structural Properties
