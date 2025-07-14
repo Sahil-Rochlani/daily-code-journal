@@ -1,3 +1,32 @@
+### Day 24 – July 14, 2025
+
+### ✅ What I did today:
+- ✅ Solved **Construct Binary Tree** from:
+   - Preorder + Inorder
+   - Postorder + Inorder
+- ✅ Completed **Flatten Binary Tree to Linked List** (in-place, optimized).
+- ✅ Solved **Boundary Traversal** of Binary Tree (left, leaves, right).
+- ✅ Completed **Transform to Sum Tree** (clean recursion, optimized).
+
+---
+
+### 💡 Key Concepts:
+- Recursive tree construction using preorder/postorder + inorder.
+- Prefix sum trick for path sum problems (reviewed again).
+- Handling left/right boundaries carefully in boundary traversal.
+- In-place tree transformations using reverse postorder traversal.
+- Importance of correct backtracking with prefix sums.
+
+---
+
+### 🧠 Notes:
+- Trees finally feel approachable—visualizing recursion helped.
+- Spotted common mistakes in left/right subtree slicing during dry runs.
+- Focused more on understanding rather than rushing problems.
+- Tomorrow: Aim to tackle Morris Traversal + revisit path sums.
+
+---
+
 ### Day 23 – July 13, 2025
 
 ### ✅ What I Did
