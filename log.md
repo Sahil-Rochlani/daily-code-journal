@@ -9,6 +9,8 @@
 
 ---
 
+---
+
 ## 💡 Key Learnings:
 - Difference between **Epics, Stories, Tasks** in Scrum.
 - How **Jira workflows** connect to real Agile processes.
