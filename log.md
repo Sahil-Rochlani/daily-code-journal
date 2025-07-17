@@ -1,3 +1,27 @@
+# 📜 Day 26 Log – July 16, 2025
+
+## ✅ What I did today:
+- 🛠️ Completed **Jira training module** (almost done).
+- 🧑‍💻 Understood **task tracking, sprint boards, logging hours**, and handling stories in real projects.
+- 🌳 **Started Binary Search Trees (BST)** – focused on insertion and deletion.
+- 🔄 Revised key **tree problems** (bottom view, sum tree, flattening, etc.).
+- 🎯 Clarified next steps with mentor regarding depth of **Dev module**.
+
+---
+
+## 💡 Key Learnings:
+- Difference between **Epics, Stories, Tasks** in Scrum.
+- How **Jira workflows** connect to real Agile processes.
+- BST deletion logic — importance of choosing **one consistent replacement strategy**.
+
+---
+
+## 🧠 Notes:
+- Feeling good understanding **real-world tools like Jira alongside DSA**.
+- Next: Focus on **e-Sutra Workstyle module** + **Dev module** based on mentor guidance.
+
+---
+
 ### Day 24 – July 14, 2025
 
 ### ✅ What I did today:
