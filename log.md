@@ -1,3 +1,29 @@
+# 📜 Day 27 Log – July 18, 2025
+
+## ✅ What I did today:
+- 📚 Completed **Floor Test** and **Department Test** at internship (focused on policies, code of conduct, communication practices).
+- 🛠️ Practiced **Monotonic Stack problems** during DSA session:
+  - MinStack using arrays.
+  - Sum of Subarray Minimums.
+  - Sum of Subarray Ranges.
+- 💬 Discussed approach improvements for contribution-based subarray problems.
+
+---
+
+## 💡 Key Learnings:
+- Reinforced stack-based approaches for subarray contribution problems.
+- Realized the importance of stopping sessions when value drops.
+- Refreshed company communication policies (Slack, Outlook, email etiquette).
+
+---
+
+## 🧠 Notes:
+- Frustrated with repeated problems, but maintained discipline.
+- Health issues (gas/acidity flare-up) affected focus and energy.
+- Next: Rest and recover before next DSA session.
+
+---
+
 # 📜 Day 26 Log – July 16, 2025
 
 ## ✅ What I did today:
@@ -6,8 +32,6 @@
 - 🌳 **Started Binary Search Trees (BST)** – focused on insertion and deletion.
 - 🔄 Revised key **tree problems** (bottom view, sum tree, flattening, etc.).
 - 🎯 Clarified next steps with mentor regarding depth of **Dev module**.
-
----
 
 ---
 
