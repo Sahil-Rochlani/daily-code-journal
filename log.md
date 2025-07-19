@@ -1,3 +1,33 @@
+# 📜 Day 28 Log – July 19, 2025
+
+## ✅ What I did today:
+- 🌳 Solved **6 Binary Tree questions**:
+   1. Top View of Binary Tree
+   2. Bottom View of Binary Tree
+   3. Vertical Order Traversal
+   4. Diagonal Traversal
+   5. Maximum Sum of Non-Adjacent Nodes (Tree DP)
+   6. Path Sum III (Prefix Sum + HashMap in Trees)
+
+- 🛠️ Focused on views, tree DP, and recursion-based prefix sum applications.
+- 🧑‍💻 Understood when to return multiple values in tree DP problems.
+
+---
+
+## 💡 Key Learnings:
+- Binary tree views (Top, Bottom, Vertical, Diagonal) follow similar traversal patterns.
+- For tree DP, single return values aren’t enough—return both include/exclude sums.
+- Prefix sum + hashmap techniques work in trees, not just arrays.
+
+---
+
+## 🧠 Notes:
+- Less question count than usual but deeper understanding today.
+- Next goal: Solve **Burning Tree** and **Duplicate Subtrees**.
+- Tree revision pending after finishing those.
+
+---
+
 # 📜 Day 27 Log – July 18, 2025
 
 ## ✅ What I did today:
