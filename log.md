@@ -1,6 +1,46 @@
-# 📜 Day 28 Log – July 19, 2025
+### Day 29 Log - July 20, 2025
 
-## ✅ What I did today:
+### ✅ What I Did:
+- Completed **full tree revision**:
+  - Covered all previously solved standard problems:
+    - DFS, BFS variations.
+    - Recursive tree questions.
+    - Level-based problems.
+    - Zigzag, boundary, etc.
+  - Focused on recursive clarity and problem-solving pattern.
+  
+- Revised **Binary Search Tree (BST)** basics:
+  - BST creation.
+  - All four traversals:
+    - Inorder traversal.
+    - Preorder traversal.
+    - Postorder traversal.
+    - Level order traversal.
+  - Searching operation.
+  - Deletion operation.
+
+### 🎯 Key Learnings:
+- Recursive thinking feels natural now after full tree revision.
+- BSTs reinforced why clean base cases matter.
+- Practiced handling BST deletion edge cases (0, 1, 2 children).
+
+### 💡 Notes:
+- Recognizing problem patterns early helps solve tree questions faster.
+- Keep recursion clean and focus on exit conditions.
+- BST's sorted property via inorder is always useful to remember.
+
+### 🔥 Next Focus:
+- Catch up to where BST advanced concepts were left (if any).
+- Plan next DSA topic once trees & BSTs feel fully solid.
+
+---
+
+**Day 29 done. Full trees and BSTs revised. Momentum strong.**
+
+
+### 📜 Day 28 Log – July 19, 2025
+
+### ✅ What I did today:
 - 🌳 Solved **6 Binary Tree questions**:
    1. Top View of Binary Tree
    2. Bottom View of Binary Tree
@@ -14,23 +54,23 @@
 
 ---
 
-## 💡 Key Learnings:
+### 💡 Key Learnings:
 - Binary tree views (Top, Bottom, Vertical, Diagonal) follow similar traversal patterns.
 - For tree DP, single return values aren’t enough—return both include/exclude sums.
 - Prefix sum + hashmap techniques work in trees, not just arrays.
 
 ---
 
-## 🧠 Notes:
+### 🧠 Notes:
 - Less question count than usual but deeper understanding today.
 - Next goal: Solve **Burning Tree** and **Duplicate Subtrees**.
 - Tree revision pending after finishing those.
 
 ---
 
-# 📜 Day 27 Log – July 18, 2025
+### 📜 Day 27 Log – July 18, 2025
 
-## ✅ What I did today:
+### ✅ What I did today:
 - 📚 Completed **Floor Test** and **Department Test** at internship (focused on policies, code of conduct, communication practices).
 - 🛠️ Practiced **Monotonic Stack problems** during DSA session:
   - MinStack using arrays.
@@ -40,23 +80,23 @@
 
 ---
 
-## 💡 Key Learnings:
+### 💡 Key Learnings:
 - Reinforced stack-based approaches for subarray contribution problems.
 - Realized the importance of stopping sessions when value drops.
 - Refreshed company communication policies (Slack, Outlook, email etiquette).
 
 ---
 
-## 🧠 Notes:
+### 🧠 Notes:
 - Frustrated with repeated problems, but maintained discipline.
 - Health issues (gas/acidity flare-up) affected focus and energy.
 - Next: Rest and recover before next DSA session.
 
 ---
 
-# 📜 Day 26 Log – July 16, 2025
+### 📜 Day 26 Log – July 16, 2025
 
-## ✅ What I did today:
+### ✅ What I did today:
 - 🛠️ Completed **Jira training module** (almost done).
 - 🧑‍💻 Understood **task tracking, sprint boards, logging hours**, and handling stories in real projects.
 - 🌳 **Started Binary Search Trees (BST)** – focused on insertion and deletion.
@@ -65,14 +105,14 @@
 
 ---
 
-## 💡 Key Learnings:
+### 💡 Key Learnings:
 - Difference between **Epics, Stories, Tasks** in Scrum.
 - How **Jira workflows** connect to real Agile processes.
 - BST deletion logic — importance of choosing **one consistent replacement strategy**.
 
 ---
 
-## 🧠 Notes:
+### 🧠 Notes:
 - Feeling good understanding **real-world tools like Jira alongside DSA**.
 - Next: Focus on **e-Sutra Workstyle module** + **Dev module** based on mentor guidance.
 
