@@ -1,3 +1,33 @@
+### Day 30 - July 22, 2025
+
+### ✅ What I Did:
+- Completed all CRUD operations using PostgreSQL from Node.js.
+- Practiced:
+  - `CREATE TABLE`
+  - `INSERT`
+  - `SELECT`
+  - `UPDATE`
+  - `DELETE`
+- Learned to perform multi-row inserts.
+- Ran raw SQL queries using pg client inside Node.js.
+- Focused on writing clean queries using `WHERE`, `AND`, `OR`, and basic conditions.
+
+### 🧠 Key Takeaway:
+- SQL logic inside backend code feels a lot clearer now after practicing raw operations.
+- CRUD from Node.js feels solid.
+
+### 🚀 Next Focus (Day 31):
+- Transactions (handling multiple queries safely).
+- Joins (querying from multiple tables).
+- Relationships (foreign keys, associations).
+- Repo setup for intern project (if required).
+
+### 💭 Notes:
+- Didn’t connect the internship repo today. Will handle that tomorrow.
+- Staying focused on backend fundamentals.
+
+---
+
 ### Day 29 Log - July 20, 2025
 
 ### ✅ What I Did:
