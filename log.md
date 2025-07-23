@@ -1,3 +1,35 @@
+
+### Day 31 - July 23, 2025
+
+### ✅ What I Did:
+- Solved 4 Binary Search Tree problems:
+  - `Kth Smallest Element in a BST`
+  - `Two Sum IV – Input is a BST`
+  - `Convert BST to Greater Tree`
+  - `Lowest Common Ancestor of a BST`
+- Practiced:
+  - In-order traversal patterns.
+  - Using maps and reverse in-order for value accumulation.
+  - Recursive logic and BST properties.
+- Understood efficient tree traversal and cumulative sum tracking.
+
+### 🧠 Key Takeaway:
+- BST patterns are becoming more intuitive with practice.
+- In-order and reverse in-order traversal are powerful tools.
+- Visualization helped a lot in understanding value updates.
+
+### 🚀 Next Focus (Day 32):
+- SQL Joins and Relationships (1:1, 1:N).
+- Transactions and rollback logic.
+- More BST/Tree problems if time permits.
+- Begin intern project repo setup if unblocked.
+
+### 💭 Notes:
+- Slack convo pending for repo access/setup help.
+- Will focus on backend + SQL flow in parallel with DSA.
+
+---
+
 ### Day 30 - July 22, 2025
 
 ### ✅ What I Did:
