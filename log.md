@@ -1,4 +1,28 @@
 
+### Day 32 - July 27, 2025
+
+### ✅ What I Did:
+- Solved 3 Binary Search Tree / Tree problems:
+  - `Convert Sorted Array to Binary Search Tree`
+  - `Convert Sorted Linked List to Binary Search Tree`
+  - `Maximum Sum BST in Binary Tree`
+- Practiced:
+  - Recursive tree construction from sorted data.
+  - Maintaining and passing structured data in recursion (custom `Info` class).
+  - Conditions for BST validation in a Binary Tree context.
+
+### 🧠 Key Takeaway:
+- Slowly but surely getting comfortable with tree recursion and custom return structures.
+- Learned how to pass multiple values up recursion using a class/struct.
+- Debugged several small syntax and logical mistakes — each one made the concept clearer.
+
+### 💭 Notes:
+- Took a while to crack `Max Sum BST in BT`, but super satisfying once it clicked.
+- Every line fixed manually made the understanding deeper.
+
+---
+
+
 ### Day 31 - July 23, 2025
 
 ### ✅ What I Did:
