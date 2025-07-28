@@ -1,3 +1,36 @@
+### 📜 Day 33 Log – July 28, 2025
+
+### ✅ What I did today:
+- 🔺 Learned **Heaps**:
+  1. What is a Heap (Complete Binary Tree + Heap Order Property)
+  2. Why Heaps are implemented using arrays (1-based indexing, easy parent-child access)
+  3. Inserting into a heap using upward shifting
+  4. Deleting the top element using `heapify` (downward shifting)
+  5. Building a heap from an array (`buildHeap`)
+  6. Heap Sort using `heapify`
+
+- 🛠️ Implemented:
+  - Custom Heap class with insert, delete, and print
+  - Heapify function (recursive)
+  - Build Heap and Heap Sort from scratch
+
+---
+
+### 💡 Key Learnings:
+- Heaps can be efficiently implemented via arrays due to 1-based index math:  
+  Parent = `i / 2`, Left = `2 * i`, Right = `2 * i + 1`
+- Insertion uses **bottom-up shifting**, deletion uses **top-down heapify**
+- `heapify()` ensures the heap property is restored after any violation
+- Heap sort works by repeatedly moving the max element to the end and shrinking the heap
+
+---
+
+### 🧠 Notes:
+- Tomorrow: Practice real problems involving heaps (e.g., Kth Largest, Top K, Merge K Sorted Lists)
+- Tries and Segment Trees still pending after heaps
+- Slowly wrapping up Trees + Tree-based patterns
+
+---
 
 ### Day 32 - July 27, 2025
 
