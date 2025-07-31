@@ -1,3 +1,32 @@
+### Day 34 - July 31, 2025
+
+### ✅ What I Did:
+
+- 🔹 **Checked if Binary Tree is Complete**
+  - Implemented two approaches:
+    - ✅ DFS with index-based heap structure simulation
+    - ✅ BFS with "gap after NULL" check in level order
+
+- 🔹 **Checked if Binary Tree is a Max-Heap**
+  - Extended both completeness approaches to also validate:
+    - `parent ≥ children` (max-heap property)
+    - Still maintained O(N) time
+
+- 🔹 **Solved “K Closest Points to Origin”**
+  - Used min-heap storing `{distance, index}` pairs
+  - Extracted top K closest points efficiently
+
+- 🔹 **Built N-ary Tree from Level Order Input**
+  - Created tree using `-1` as sentinel for end of children
+  - Used a queue to insert children level-by-level
+
+### 🧠 Concepts Covered:
+- Heap completeness and max-heap validation
+- Priority queues (min-heap usage)
+- N-ary tree construction logic
+
+
+
 ### 📜 Day 33 Log – July 28, 2025
 
 ### ✅ What I did today:
