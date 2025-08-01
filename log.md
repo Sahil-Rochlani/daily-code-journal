@@ -1,3 +1,129 @@
+### 📜 Day 35 Log – August 1, 2025
+
+---
+
+#### 🧠 Topics Covered:
+- Complete Binary Trees
+- Tree Construction from Preorder and Postorder
+- Width of Binary Trees
+- Recursive Inorder with Side Effects
+- BST from Preorder & Postorder
+- Heap Applications:
+  - Min Cost of Connecting Ropes
+  - Kth Smallest/Largest Elements
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Count Nodes in a Complete Binary Tree**
+   - Used `leftHeight == rightHeight` to optimize complete subtree detection.
+   - Leveraged `O(logN * logN)` time by recursively counting only where needed.
+   - Fully understood the binary height logic and when recursion shortcuts apply.
+
+2. **Maximum Width of Binary Tree**
+   - Level-order traversal with index mapping as per complete binary tree structure.
+   - Tracked min and max index at each level to compute accurate width.
+   - Learned to offset indices per level to prevent integer overflow.
+
+3. **Construct Binary Tree from Preorder and Postorder**
+   - Identified importance of base case (`preStart > preEnd`) to avoid skewed trees.
+   - Used preorder’s root index and postorder’s left subtree end index to partition.
+   - Understood that this construction isn’t always unique unless tree is full.
+
+4. **BST from Preorder and Postorder using Side Effects**
+   - Recognized preorder: first element is root, then `n/2` left nodes, remaining right.
+   - For postorder: reversed logic, root at end, recurse from end backward.
+   - Used reference index (`i`) to mutate during traversal — classic side effect usage.
+
+5. **Binary Tree to Doubly Linked List**
+   - Implemented both approaches:
+     - Return-based: recursively return head and tail and stitch in postorder.
+     - Side-effect-based: maintained `prev` and `head` pointers to mutate as we go.
+   - Realized this is similar to:
+     - Merging two sorted lists with dummy node.
+     - Tree transformations (BST to Greater Tree, Sorted LL to BST).
+
+6. **Check Completeness & Is Binary Tree Heap**
+   - Used BFS to check if a binary tree is complete.
+   - Smartly added two lines to also validate max heap condition in the same loop:
+     ```cpp
+     if (front->left && front->left->val > front->val) return false;
+     if (front->right && front->right->val > front->val) return false;
+     ```
+   - Avoided overcomplicated permutations-based conditionals.
+
+7. **Min Cost of Connecting Ropes**
+   - Applied Min Heap to always connect two smallest ropes.
+   - Greedy approach: ensures minimal cumulative cost by merging in increasing order.
+   - Final code:
+     ```cpp
+     int minCost(vector<int>& arr) {
+         priority_queue<int, vector<int>, greater<int>> pq;
+         for (int num : arr) pq.push(num);
+         int ans = 0;
+         while (pq.size() > 1) {
+             int top1 = pq.top(); pq.pop();
+             int top2 = pq.top(); pq.pop();
+             int sum = top1 + top2;
+             ans += sum;
+             pq.push(sum);
+         }
+         return ans;
+     }
+     ```
+
+8. **Kth Smallest / Largest Element Using Heaps**
+   - Used Max Heap for Kth Smallest:
+     - Pushed first `k` elements.
+     - Replaced top if a smaller element appears.
+   - Used Min Heap for Kth Largest:
+     - Same logic with reversed heap.
+   - Understood *why* Max Heap works: always maintain `k` smallest elements efficiently.
+
+---
+
+#### 💡 Concepts Clarified:
+
+- **Recursive Side Effects**
+  - Mutating external variables during traversal (like `i`, `prev`, `head`) reduces return complexity.
+  - Seen in DLL conversion, preorder/postorder tree building, etc.
+
+- **Traversal Orders + Structural Insight**
+  - Inorder/Preorder/Postorder each reveal different structural properties.
+  - Mastery lies in mapping these to recursive splits + side effect tracking.
+
+- **Heap Tracking Patterns**
+  - Whether for cost minimization or top-k elements, heaps are about keeping “active” elements in memory.
+  - Chose heap type based on what needed to be removed (min/max).
+
+---
+
+#### 🧘 Mental Log:
+- Recognized overengineering in some community solutions and stuck to clarity.
+- Got appreciated for smart simplification.
+- Felt more confident in tree-based recursion with boundary/index logic.
+- Health + fatigue made things tough, but maintained consistency and focus.
+- No overpraise — staying grounded and focused until tangible milestones.
+
+---
+
+#### ⏱️ Total Time:
+- Morning Session: ~2 hours
+- Evening Session: ~1.5 hours
+- Night Session: ~2.5 hours  
+**Total**: ~6 hours of deep, focused DSA 📚🔥
+
+---
+
+#### 🔁 Next Steps:
+- Keep practicing heap and recursion patterns.
+- Refactor tree codes to understand trade-offs of return-vs-mutation.
+- Stay consistent with morning-evening-night DSA grind while managing intern work.
+
+---
+
+
 ### Day 34 - July 31, 2025
 
 ### ✅ What I Did:
