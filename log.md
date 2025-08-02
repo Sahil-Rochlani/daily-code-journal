@@ -1,3 +1,96 @@
+# 📜 Day 36 Log – August 2, 2025
+
+## 🧠 Topics Covered:
+- ✅ **BST Validation Techniques**:
+  - Top-down approach using `min` and `max` bounds (`isValidBST` with `leftMax` and `rightMin`)
+  - Inorder traversal validation (checking strictly increasing order using a reference variable)
+- ✅ Compared and understood the three core BST validation strategies:
+  1. Top-down bounds passing
+  2. Bottom-up postorder info return (recall from `Max Sum BST`)
+  3. Inorder traversal increasing property
+- 🧠 Understood deeper BST intuition through traversal-based and value-bound reasoning
+
+---
+
+## ✅ Questions Practiced:
+
+1. **Validate Binary Search Tree**
+   - Implemented using:
+     - Bounds-check method (top-down recursion with limits)
+     - Inorder traversal method (sorted property using `prev` reference)
+
+2. **Construct BST from Preorder Traversal**
+   - Completed to build foundational understanding before validation
+   - 🧠 **Insight**: Understood why the **inorder trick doesn't work here** —  
+     Preorder traversal is **unique for BSTs** because the first element is always the root,  
+     and subsequent elements naturally divide into left and right subtrees based on value boundaries.  
+     Unlike inorder which is sorted and ambiguous, preorder directly encodes tree structure.
+
+---
+
+## 💭 Reflection:
+> The bottom-up approach felt instinctive after solving `Max Sum BST in Binary Tree`.  
+> Today’s validation problem helped me internalize the rules and traversal-based reasoning for BSTs.  
+> I now feel confident in approaching BST-related problems using multiple methods.  
+> Also loved realizing **why preorder allows unique BST construction** while inorder does not.
+
+---
+
+## 🌞 Afternoon Session – August 2, 2025
+
+### ✅ Q1. Can Represent BST from Preorder Traversal
+
+#### 🔹 Approaches Covered:
+
+1. **My Approach (Recursive Bound Checking):**
+   - Maintain an index `i` to track current node in preorder traversal.
+   - Use `min` and `max` bounds to validate BST properties.
+   - At each step:
+     - If `preorder[i] <= min` or `>= max`, return false.
+     - Otherwise, take `preorder[i]` as root and increment `i`.
+     - Recur for left and right subtrees with updated bounds.
+   - Finally, if `i == preorder.size()`, the preorder is a valid BST representation.
+
+2. **Standard Optimal Approach (Build Until Invalid, Then Check `i == n`):**
+   - Simulates placing nodes using min/max bounds without returning false.
+   - Just recursively proceeds until it can't place any more nodes.
+   - Does **not** build actual tree.
+   - After recursion, if all nodes were used (`i == preorder.size()`), it's valid.
+
+3. **Postorder Variant Insight:**
+   - The same approach applies to postorder traversal by:
+     - Traversing from the back.
+     - Recursively building the **right** subtree first.
+   - Bounds are applied similarly (`min`, `max`), and correctness checked by index.
+
+#### 🔸 Key Insight:
+> All approaches simulate the preorder traversal as a **BST construction attempt**, and validate based on whether **all nodes got placed** within bounds.
+
+---
+
+### 📜 Day 36 – August 2, 2025 (Night Session)
+
+#### 🌙 Topics Covered:
+- ✅ **Dead End in BST**
+  - Explored patterns like `{1, 2}` and `{x-1, x, x+1}` that form dead ends.
+  - Your initial idea: store inorder and check adjacency.
+  - Referred to editorial — learned the clean recursive bounds-based approach using `min == max`.
+  - Felt similar to validating a BST using preorder and bounds.
+
+- ✅ **Merge Two BSTs**
+  - **Major Unlock**: Learned **inorder traversal using a stack** — to simulate recursion.
+  - Used two stacks to traverse both BSTs in order and merge them.
+  - Did **not** build a height-balanced tree — just merged the values as part of the traversal.
+
+#### 🧠 Insights:
+- Stack-based inorder traversal is a huge step — it opens doors to more advanced iterative tree problems.
+- You’re starting to naturally spot where bounds-based recursion fits in.
+
+#### 💤 Final Thoughts:
+> A real win tonight — not in “how optimal” but in *how much you absorbed*. You’re in the growth zone.
+
+
+
 ### 📜 Day 35 Log – August 1, 2025
 
 ---
