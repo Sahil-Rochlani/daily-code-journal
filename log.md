@@ -1,6 +1,124 @@
-# 📜 Day 36 Log – August 2, 2025
+### 📜 Day 38 – August 4, 2025
 
-## 🧠 Topics Covered:
+---
+
+#### ✅ Questions Practiced:
+
+1. **Merge K Sorted Arrays**
+   - **Topic**: Heaps / Priority Queue
+   - **Approach**:
+     - Used min-heap with custom `Info` class.
+     - Tracked value, row, and column for each element.
+     - Inserted the first element of each array into the heap.
+     - Extracted the smallest and inserted the next from the same row.
+   - **Fix Noted**: Made comparator's `operator()` public to avoid compilation error.
+   - **Complexity**: `O(N log K)`
+   - **Status**: ✅ Working
+
+2. **Merge K Sorted Linked Lists**
+   - **Topic**: Heaps / Linked List
+   - **Approach**:
+     - Min-heap storing pointers to current heads.
+     - Maintained a running merged list by popping smallest and pushing its `next`.
+   - **Edge Handling**: Checked for nulls and linked nodes in-place.
+   - **Complexity**: `O(N log K)`
+   - **Status**: ✅ Working
+
+3. **Smallest Range Covering K Lists**
+   - **Topic**: Heaps / Sliding Window
+   - **Approach**:
+     - Min-heap for smallest element, tracked max manually.
+     - Updated range `[min, max]` at each step.
+     - Pushed next element from same row into heap.
+   - **Complexity**: `O(N log K)`
+   - **Status**: ✅ Working
+   - **Note**: Had a minor logic typo — `(ansMax - ansMax)` should be `(ansMax - ansMin)`.
+
+4. **Median from Data Stream**
+   - **Topic**: Heaps / Two Heaps
+   - **Approach**:
+     - Used maxHeap (lower half) and minHeap (upper half).
+     - Maintained balance between heaps after every insertion.
+     - `findMedian()` calculated based on size balance.
+   - **Complexity**: `addNum: O(log N)`, `findMedian: O(1)`
+   - **Status**: ✅ Working
+
+---
+
+#### 🔥 Summary:
+
+**Insane day. All 4 problems were heap-based but each with unique patterns.  
+From multi-way merges to real-time medians — built deep intuition today.  
+Definitely need a revision cycle.**
+
+---
+
+### 📜 Day 37 Log – August 3, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Convert BST to a Balanced BST**
+   - Learned to convert an unbalanced BST into a height-balanced BST by:
+     - Inorder traversal to get sorted elements
+     - Recursively building the balanced BST using middle elements
+   - Implemented both recursive and iterative approaches.
+   - Understood why BSTs are used: efficient search + insert (O(log n) average).
+
+2. **Least Greater Element on the Right**
+   - Solved using a `set` as a BST:
+     - Traversed array from right to left.
+     - Used `upper_bound` to find least greater element.
+     - Inserted each element in the BST (`set`) while moving backward.
+   - Time: O(n log n), Space: O(n)
+   - Clean, efficient, and standard approach.
+
+3. **Insert & Search in BST with Successor Tracking**
+   - Built a function to:
+     - Search in BST
+     - Insert if not found
+     - Track inorder successor during insertion
+   - Key lesson: using references (`int& ans`) to return extra info from functions.
+   - Also spotted and fixed a bug: loop condition was `while (!curr)` instead of `while (curr)`.
+
+4. **Minimum Difference in BST**
+   - Used **inorder traversal** for accessing sorted values.
+   - Tracked previous node to compute differences.
+   - Maintained minimum difference using `mini`.
+
+5. **Recover Binary Search Tree**
+   - Detected violation of BST order during inorder traversal.
+   - Captured `first` and `second` misplaced nodes.
+   - Swapped their values to restore BST.
+   - Understood both **adjacent** and **non-adjacent** swap cases.
+
+---
+
+#### 💪 Notes:
+- All 5 questions done with focus despite health issues.
+- Balanced efficiency and correctness.
+- Didn't overpush beyond capacity; gave 1-hour rest between sessions.
+- Executed with clarity and intention.
+
+---
+
+#### 🎯 Next Up (Plan):
+- Complete 3 pending Binary Tree problems from pre-intern phase.
+- Dive deep into **Morris Traversal** (threaded tree traversal).
+- Revise:
+  - 🔁 Binary Tree patterns
+  - 📚 BST problems (all key techniques)
+
+---
+
+Tight execution today, Sahil. You’re stitching concepts together like a true problem solver. Let’s close out trees strong. 🌳🔥
+
+
+
+### 📜 Day 36 Log – August 2, 2025
+
+### 🧠 Topics Covered:
 - ✅ **BST Validation Techniques**:
   - Top-down approach using `min` and `max` bounds (`isValidBST` with `leftMax` and `rightMin`)
   - Inorder traversal validation (checking strictly increasing order using a reference variable)
@@ -12,7 +130,7 @@
 
 ---
 
-## ✅ Questions Practiced:
+### ✅ Questions Practiced:
 
 1. **Validate Binary Search Tree**
    - Implemented using:
@@ -28,7 +146,7 @@
 
 ---
 
-## 💭 Reflection:
+### 💭 Reflection:
 > The bottom-up approach felt instinctive after solving `Max Sum BST in Binary Tree`.  
 > Today’s validation problem helped me internalize the rules and traversal-based reasoning for BSTs.  
 > I now feel confident in approaching BST-related problems using multiple methods.  
@@ -36,7 +154,7 @@
 
 ---
 
-## 🌞 Afternoon Session – August 2, 2025
+### 🌞 Afternoon Session – August 2, 2025
 
 ### ✅ Q1. Can Represent BST from Preorder Traversal
 
