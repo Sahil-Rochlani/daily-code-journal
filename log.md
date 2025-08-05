@@ -1,3 +1,36 @@
+### 📜 Day 39 Log – August 5, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Binary Tree Cameras**  
+   - Learned to apply **greedy DFS with 3 states**:
+     - `0` → Has a camera  
+     - `1` → Covered (no camera)  
+     - `2` → Not covered  
+   - If any child is `2` → place camera at current node  
+   - If any child is `0` → current node is covered  
+   - If both children are `1` → current node is not covered  
+   - Place an extra camera at root if needed  
+   - Core Greedy Insight:  
+     > Place a camera only when necessary. Let parent cover the node if both children are already covered.
+
+---
+
+#### 🧠 Key Takeaway:
+Greedy + DFS state representation in trees is a powerful technique. Think in **states** not just positions.
+
+---
+
+#### ⏭️ Next Up:
+Continue more Leetcode Tree Mediums + revisit a few core greedy patterns.
+
+---
+
+
+
+
 ### 📜 Day 38 – August 4, 2025
 
 ---
