@@ -1,3 +1,176 @@
+### 📜 Day 40 – August 12, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Minimum Time to Infect a Tree**
+   - **Topic**: Binary Tree / DFS
+   - **Approach**:
+     - Recursive DFS returning depth and distance from start node.
+     - Used distances from subtrees to compute infection time.
+   - **Complexity**: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Understanding how to propagate time across branches sharpened my tree recursion logic.
+
+2. **Find Duplicate Subtrees**
+   - **Topic**: Binary Tree / Hashing
+   - **Approach**:
+     - Serialized subtrees into strings.
+     - Used hashmap to track frequency.
+     - Collected roots when frequency reached 2.
+   - **Complexity**: `O(N^2)` (string concat) → optimized with hashing.
+   - **Status**: ✅ Working
+   - **Learning**: Serialization + hashing is a powerful combo for subtree identification.
+
+3. **Fibonacci Number**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+   - **Complexity**:
+     - Recursion: `O(2^N)`
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Moving from recursion to space optimization clarified the step-by-step DP optimization flow.
+
+4. **Climbing Stairs**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+   - **Complexity**:
+     - Recursion: `O(2^N)`
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Recognized the direct mapping to Fibonacci logic — same recurrence, different story.
+
+5. **House Robber**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+     - In memoization, initialized `dp` with `-1` since `0` is a valid result.
+   - **Complexity**:
+     - Recursion: `O(2^N)`
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Always choose a sentinel value that can’t be a valid output — using `0` caused wrong results until I switched to `-1`.
+
+6. **Frog Jump (1D DP)(Also Generalized it for k jumps)**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+     - Jump cost based on height difference; choices of jumping 1 or 2 steps.
+   - **Complexity**:
+     - Recursion: Exponential  
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: The space-optimized approach condenses the DP array into two variables — a neat trick that boosts efficiency and sharpens understanding of DP state dependencies.
+
+   7. **Coin Change (Minimum Coins)**
+   - **Topic**: Dynamic Programming / Tabulation
+   - **Approach**:
+     - Bottom-up DP building from amount 0 to target amount.
+     - For each amount, tries all coin options and takes minimum.
+   - **Complexity**: `O(amount * number_of_coins)`
+   - **Status**: ✅ Working (tabulation)
+   - **Learning**: Tabulation provides a clear iterative pattern that’s often easier to debug and optimize than recursion.
+
+
+---
+
+#### 🛠 Bugs & Fixes:
+
+1. **Memoization Sentinel Value Pitfall**  
+   - Bug: Used `0` as "uncomputed" marker in House Robber’s `dp`, but `0` is a valid answer.  
+   - Fix: Changed to `-1` so I can differentiate between "uncomputed" and actual `0`.
+
+---
+
+#### 🔥 Summary:
+
+**Day 40 — Kickstarted DP track after finishing some solid binary tree problems.  
+Felt great to implement multiple approaches (recursion → space optimization) for DP basics.  
+Strong groundwork for tougher DP problems ahead.**
+
+
+### 📜 Day 40 – August 12, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Minimum Time to Infect a Tree**
+   - **Topic**: Binary Tree / DFS
+   - **Approach**:
+     - Recursive DFS returning depth and distance from start node.
+     - Used distances from subtrees to compute infection time.
+   - **Complexity**: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Understanding how to propagate time across branches sharpened my tree recursion logic.
+
+2. **Find Duplicate Subtrees**
+   - **Topic**: Binary Tree / Hashing
+   - **Approach**:
+     - Serialized subtrees into strings.
+     - Used hashmap to track frequency.
+     - Collected roots when frequency reached 2.
+   - **Complexity**: `O(N^2)` (string concat) → optimized with hashing.
+   - **Status**: ✅ Working
+   - **Learning**: Serialization + hashing is a powerful combo for subtree identification.
+
+3. **Fibonacci Number**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+   - **Complexity**:
+     - Recursion: `O(2^N)`
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Moving from recursion to space optimization clarified the step-by-step DP optimization flow.
+
+4. **Climbing Stairs**
+   - **Topic**: Dynamic Programming
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space Optimization
+   - **Complexity**:
+     - Recursion: `O(2^N)`
+     - Memoization / Tabulation / Space Optimized: `O(N)`
+   - **Status**: ✅ Working
+   - **Learning**: Recognized the direct mapping to Fibonacci logic — same recurrence, different story.
+
+---
+
+#### 🔥 Summary:
+
+**Day 40 — Kickstarted DP track after finishing some solid binary tree problems.  
+Felt great to implement multiple approaches (recursion → space optimization) for DP basics.  
+Strong groundwork for tougher DP problems ahead.**
+
+---
+
 ### 📜 Day 39 Log – August 5, 2025
 
 ---
