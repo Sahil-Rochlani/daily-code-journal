@@ -56,21 +56,3 @@ int coinChange(vector<int>& coins, int amount) {
     }
     return dp[amount] == INT_MAX ? -1 : dp[amount];
 }
-
-//space optimized
-int minCost(vector<int>& heights) {
-    // Code here
-    if(heights.size() == 1)return 0;
-    // vector<int> dp(heights.size(), -1);
-    int prev2 = 0;
-    int prev = abs(heights[heights.size() - 1] - heights[heights.size() - 2]);
-    
-    for(int i = heights.size() - 3;i >= 0;i--){
-        int curr = min(abs(heights[i] - heights[i + 1]) + prev, abs(heights[i] - heights[i + 2]) + prev2);
-        prev2 = prev;
-        prev = curr;
-    }
-    //idhar hamesha galti karta hoon prev return karna hai curr nahi
-    return prev;
-    
-}

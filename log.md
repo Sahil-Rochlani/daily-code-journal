@@ -1,3 +1,81 @@
+### 📜 Day 41 – August 17, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Painting Fence (k colors, no two adjacent same)**
+   - **Topic**: Dynamic Programming / Recursion & Optimization
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization (top-down)
+       - Tabulation (bottom-up)
+       - Space Optimization (2 variables)
+     - Extended logic to **at most k consecutive pillars**.
+   - **Complexity**:
+     - Recursion: exponential
+     - DP: `O(n)`
+   - **Status**: ✅ Working
+   - **Learning**: Recognized the pattern of “same vs different last color” and how to generalize it; mastered stepwise DP optimization.
+
+2. **0/1 Knapsack**
+   - **Topic**: Dynamic Programming / Optimization
+   - **Approach**:
+     - Implemented in:
+       - Recursion
+       - Memoization
+       - Tabulation
+       - Space-Optimized 1D
+     - Carefully handled **reverse iteration** for 1D optimization.
+   - **Complexity**:
+     - Recursion: `O(2^n)`
+     - DP: `O(n*W)`
+     - Space-Optimized: `O(W)`
+   - **Status**: ✅ Working
+   - **Learning**: Gained full clarity on 2D → 1D space optimization; understood why reverse iteration is necessary.
+
+3. **Longest Increasing Subsequence (DP tabulation)**
+   - **Topic**: DP / LIS
+   - **Approach**:
+     - Started from recursion → memoization → tabulation
+     - Built a 2D `dp[i][prev_index]` table.
+   - **Complexity**: `O(n^2)`
+   - **Status**: ✅ Working
+   - **Learning**: Learned how tabulation fills from smaller subproblems up, and how dependencies map to `i+1` row; able to optimize to 1D in simple LIS variants.
+
+4. **Number of Dice Rolls to Target (n dice, k faces)**
+   - **Topic**: DP / Counting / Space Optimization
+   - **Approach**:
+     - 2D DP (`dp[i][target]`) → 1D DP (`prev` + `curr`) → single 1D vector
+     - Applied **backwards iteration** in 1D to prevent overwriting.
+   - **Complexity**: `O(n*target*k)`
+   - **Status**: ✅ Working
+   - **Learning**: Understood table boundaries; mastered progression from tabulation → 1D space optimization.
+
+5. **Partition Equal Subset Sum**
+   - **Topic**: DP / Subset Sum / Space Optimization
+   - **Approach**:
+     - Recursion → Memoization → Tabulation → 2D → 1D space optimization
+     - Handled `sum == 0` without extra initialization loop using inline check
+     - Single 1D array optimized with **reverse iteration**.
+   - **Complexity**: `O(n*sum)`
+   - **Status**: ✅ Working
+   - **Learning**: Fully internalized DP transitions and space optimization tricks; flexibility in handling base cases inline.
+
+---
+
+#### 🧠 Reflection / Notes:
+
+- Today was a **DP masterclass session**: recursion → memoization → tabulation → 1D / 2D space optimization for **5 different problems**.
+- Biggest gains:
+  - Visualizing **dependencies in DP tables**
+  - Confidently doing **2D → 1D → 1D single vector** optimizations
+  - Generalizing patterns (Painting Fence → k consecutive colors)
+- Feeling **much more comfortable with boundaries, base cases, and optimization order**.
+
+---
+
 ### 📜 Day 40 – August 12, 2025
 
 ---
