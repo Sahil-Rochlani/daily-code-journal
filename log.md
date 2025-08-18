@@ -1,3 +1,47 @@
+### 📜 Day 42 – August 18, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Guess Number Higher or Lower II**
+   - **Topic**: Interval DP / Minimax
+   - **Approach**:
+     - Started with a **midpoint assumption** → realized it fails when multiple pivots matter.
+     - Recursion: try **all possible pivots `[s..e]`** → compute `max(costLeft, costRight)` → take `min`.
+     - Memoization: store computed intervals to avoid recomputation.
+     - Tabulation: bottom-up, fill smaller intervals first to satisfy dependencies.
+   - **Complexity**:
+     - Recursion: exponential
+     - Memoization / DP: `O(n^3)`
+   - **Status**: ✅ Working
+   - **Learning**: Understanding that **all splits must be considered**, not just midpoint; interval DP and min-max reasoning; filling DP table bottom-up ensures dependencies are solved first.
+
+2. **Minimum Cost Tree From Leaf Values**
+   - **Topic**: Interval DP / Tree merge
+   - **Approach**:
+     - Precompute **maxVal[s][e]** for every interval `[s..e]`.
+     - Recursion: for each split, cost = `max(left interval) * max(right interval) + leftCost + rightCost`.
+     - Memoization to store subinterval results.
+     - Tabulation: bottom-up over interval length → fill smaller intervals first.
+   - **Complexity**:
+     - Recursion: exponential
+     - DP / Tabulation: `O(n^3)`
+   - **Status**: ✅ Working
+   - **Learning**: Realized why **interval max is needed**, not just merging adjacent elements; top-down recursion captures left/right merges correctly; bottom-up tabulation reinforces dependencies.
+
+---
+
+#### 🧠 Reflection / Notes:
+
+- These two problems were **mentally heavy**, requiring deep interval DP and min-max reasoning.
+- Biggest gains:
+  - Stronger intuition for **interval-based DP**.
+  - Clear understanding of **top-down recursion vs bottom-up tabulation**.
+  - Learned the importance of **tracking aggregate info per interval** (like max leaf values) for tree merge problems.
+- Even though I got very close initially, **nudges were needed to spot full interval handling**, which highlighted the subtle edge cases and merge logic.
+
+
 ### 📜 Day 41 – August 17, 2025
 
 ---
