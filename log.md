@@ -1,3 +1,69 @@
+### 📜 Day 43 – August 20, 2025
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Longest Common Subsequence (LCS)**
+   - **Topic**: DP / String / Subsequence  
+   - **Approach**:  
+     - **Recursion**: Compare `text1[i]` and `text2[j]`, add 1 if equal; else take max of advancing either pointer.  
+     - **Memoization**: Store `dp[i][j]` to avoid recomputation.  
+     - **Tabulation**: Bottom-up DP over `i` and `j`.  
+     - **Space Optimization #1**: Use two 1D arrays (`curr` and `next`).  
+     - **Space Optimization #2**: Further reduce to one 1D array using `prevDiagonal`.  
+   - **Complexity**:  
+     - Recursion: Exponential  
+     - DP / Tabulation: `O(n*m)` time, `O(n*m)` space  
+     - Space Optimized: `O(n*m)` time, `O(min(n,m))` space  
+   - **Status**: ✅ Completed all approaches first try  
+   - **Learning**: Solidified understanding of **string DP patterns** and **space optimization tricks**.
+
+2. **Unique Binary Search Trees (NumTrees / Catalan Number)**  
+   - **Topic**: DP / Combinatorics / BST counting  
+   - **Approach**:  
+     - **Recursion**: Pick each `i` as root → left count * right count → sum.  
+     - **Memoization**: Store `dp[s][e]` to avoid recomputation.  
+     - **Tabulation #1**: Bottom-up, fill `dp[s][e]` using start index.  
+     - **Tabulation #2**: Bottom-up by interval length.  
+   - **Complexity**:  
+     - Recursion: Exponential  
+     - DP / Tabulation: `O(n^3)` time, `O(n^2)` space  
+   - **Status**: ✅ Completed all approaches first try  
+   - **Learning**: Interval DP counting patterns; saw relation to **Catalan numbers**.
+
+3. **Longest Palindromic Subsequence (LPS)**  
+   - **Topic**: DP / String / Palindromes  
+   - **Approach**:  
+     - **Recursion / Interval DP**: Treat substring `[i..j]` as a state. If `s[i] == s[j]`, include both and recurse inward; else take max of skipping either end.  
+     - **Memoization**: Store `dp[i][j]` to avoid recomputation.  
+     - **Tabulation**: Bottom-up DP filling smaller intervals first.  
+     - **Space Optimization #1**: Two 1D arrays (`curr`, `next`).  
+     - **Space Optimization #2**: One 1D array with `diagonal` variable.  
+   - **Complexity**:  
+     - Recursion: Exponential  
+     - DP / Tabulation: `O(n^2)` time, `O(n^2)` space  
+     - Space Optimized: `O(n^2)` time, `O(n)` space  
+   - **Status**: ✅ Completed all approaches first try  
+   - **Learning**: Fully understood recursion → memoization → tabulation → space optimization flow; boosted confidence in interval/string DP.  
+
+---
+
+#### 🧠 Reflection / Notes:
+
+- Today was **insanely productive**: 3 major DP problems, all multiple approaches, **first try completion**.  
+- Key patterns:  
+  - Recursion → Memoization → Tabulation → Space Optimization is a repeatable flow.  
+  - Interval DP (LPS, NumTrees) and 2-string DP (LCS) share structural similarities.  
+  - Space optimization often boils down to **storing only what’s immediately needed**.  
+- **Intuition for interval DP (“shrinking inwards”)**:  
+  - Treat each substring `[i..j]` as a state.  
+  - If the ends match, include both and recurse inward; otherwise, pick the best by skipping either end.  
+  - This systematically checks all possibilities and naturally leads to memoization/tabulation.  
+- Feeling confident tackling **more complex string/interval/tree DP problems** next.
+
+---
+
 ### 📜 Day 42 – August 18, 2025
 
 ---
