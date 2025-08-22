@@ -1,3 +1,79 @@
+### 📜 Day 44 – August 21, 2025  
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Maximum Height by Stacking Cuboids (LeetCode 1691)**  
+   - **Topic**: DP / 3D nesting / LIS variant  
+   - **Approach**:  
+     - Normalize each cuboid by sorting its 3 dimensions.  
+     - Sort all cuboids lexicographically.  
+     - Apply LIS-style DP: for each cuboid, either include it on top of a compatible one (all 3 dimensions ≥ prev) or skip it.  
+     - Implemented **Recursion → Memoization → Tabulation → Space Optimization**.  
+   - **Complexity**:  
+     - O(n²) DP (n ≤ 100, so sufficient).  
+   - **Status**: ✅ All approaches done  
+   - **Learning**: Classic reduction of multidimensional nesting → LIS; sorting dimensions upfront simplifies validity checks.
+
+2. **Russian Doll Envelopes (LeetCode 354)**  
+   - **Topic**: Greedy / DP / LIS variant  
+   - **Approach**:  
+     - Sort envelopes by width ascending; if widths are equal, sort by height **descending** (to prevent false nesting).  
+     - Reduce problem to LIS on heights.  
+     - Implemented O(n log n) LIS using `lower_bound`.  
+   - **Complexity**: O(n log n)  
+   - **Status**: ✅ Solved with correct sort strategy + LIS  
+   - **Learning**: The **descending height trick** is essential when widths tie; otherwise, invalid nesting sneaks in.  
+
+3. **Longest Increasing Subsequence (LIS)**  
+   - **Topic**: DP / Binary Search  
+   - **Approach**:  
+     - Recursion with index+prev states.  
+     - Memoization → Tabulation.  
+     - Optimized O(n log n) LIS using patience sorting + `lower_bound`.  
+   - **Complexity**:  
+     - DP: O(n²)  
+     - Greedy+BS: O(n log n)  
+   - **Status**: ✅ Completed  
+   - **Learning**: First time fully clear on O(n log n) LIS; template reused in Envelopes.  
+
+4. **Edit Distance (LeetCode 72)**  
+   - **Topic**: DP / String transformation  
+   - **Approach**:  
+     - Recurrence: insert, delete, replace.  
+     - Implemented recursion → memoization → tabulation → space optimization.  
+   - **Complexity**: O(n*m)  
+   - **Status**: ✅ Completed  
+   - **Learning**: Core 2D DP pattern; strong practice for string edit/transform problems.  
+
+5. **Longest Palindromic Substring (LeetCode 5)**  
+   - **Topic**: DP / String / Palindrome expansion  
+   - **Approach**:  
+     - Expand around center for all i (odd/even).  
+     - Track longest substring.  
+   - **Complexity**: O(n²)  
+   - **Status**: ✅ Solved  
+   - **Learning**: Difference between *LPS (subsequence)* and *LPS (substring)* is now crystal clear.  
+
+---
+
+#### 🧠 Reflection / Notes:
+
+- Two days of **heavy DP grind**:  
+  - Interval/string DP (*LCS, LPS, Edit Distance*).  
+  - Structural DP (*NumTrees, Cuboids*).  
+  - LIS-based reductions (*LIS, Russian Envelopes*).  
+- Noticed repeating transformations:  
+  - Multi-dimension nesting → LIS.  
+  - String problems → 2D DP with index states.  
+  - Interval problems → inward shrinking recursion.  
+- Sorting strategy can make or break LIS-based problems (Cuboids, Envelopes).  
+- **Confidence booster**: Today’s Envelopes problem finally clicked why we sort `(w ↑, h ↓)`.  
+
+---
+
+
 ### 📜 Day 43 – August 20, 2025
 
 ---

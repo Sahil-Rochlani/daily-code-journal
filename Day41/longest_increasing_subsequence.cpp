@@ -45,7 +45,6 @@ int lengthOfLIS(vector<int>& nums) {
 
 //space optimization: #1
 int lengthOfLIS(vector<int>& nums) {
-    vector<vector<int>> dp(nums.size() + 1, vector<int>(nums.size() + 1, 0));
     vector<int> curr(nums.size() + 1, 0);
     vector<int> next(nums.size() + 1, 0);
     int n = nums.size();
@@ -53,7 +52,7 @@ int lengthOfLIS(vector<int>& nums) {
         for(int j = i - 1;j >= -1;j--){
             int include = (j == -1) || (nums[i] > nums[j]) ? 1 + next[i + 1] : 0;
             int exclude = next[j + 1];
-            next[j + 1] = max(include, exclude);
+            curr[j + 1] = max(include, exclude);
         }
         next = curr;
     }
@@ -62,7 +61,6 @@ int lengthOfLIS(vector<int>& nums) {
 
 //space optimization: #2
 int lengthOfLIS(vector<int>& nums) {
-    vector<vector<int>> dp(nums.size() + 1, vector<int>(nums.size() + 1, 0));
     vector<int> next(nums.size() + 1, 0);
     int n = nums.size();
     for(int i = n - 1;i >= 0;i--){
