@@ -1,3 +1,30 @@
+### 📜 Day 45 – August 23, 2025  
+
+---
+
+#### ✅ Questions Practiced:
+
+4. **Graph Basics (BFS + DFS + Adjacency List)**  
+   - **Topic**: Graph / BFS / DFS  
+   - **Approach**:  
+     - Implemented `Graph` class with **adjacency list** using `unordered_map<int, vector<int>>`.  
+     - `addEdge(u, v, direction)` → adds directed/undirected edges.  
+     - `printAdjList(n)` → prints adjacency list representation.  
+     - **BFS**:  
+       - Use `queue<int>` and `visited` map.  
+       - Traverse level by level starting from `src`.  
+     - **DFS**:  
+       - Recursive helper with `visited` map.  
+       - Calls `dfshelper` for all unvisited nodes to handle disconnected graphs.  
+   - **Complexity**:  
+     - BFS: O(V + E)  
+     - DFS: O(V + E)  
+     - Space: O(V + E) for adjacency list + visited.  
+   - **Status**: ✅ Implemented + tested with sample graph  
+   - **Learning**: Foundation of graph traversal. BFS uses queue (iterative), DFS uses recursion (stack). Handles disconnected graphs by looping over all vertices.  
+
+---
+
 ### 📜 Day 44 – August 21, 2025  
 
 ---
