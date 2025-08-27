@@ -1,3 +1,54 @@
+### 📜 Day 48 – August 27, 2025  
+
+---
+
+#### ✅ Questions Practiced:
+
+1. **Cycle Detection in Undirected Graph (BFS)**  
+   - **Topic**: Graph / BFS / Cycle Detection / Undirected  
+   - **Approach**:  
+     - Built **adjacency list** from edges using `unordered_map<int, vector<int>>`.  
+     - For each unvisited node, performed **BFS** using a queue.  
+     - Tracked **parent** of each node to avoid falsely detecting trivial back-edges to parent as a cycle.  
+     - If a neighbor is visited and not the parent → cycle detected.  
+   - **Complexity**:  
+     - Time: O(V + E)  
+     - Space: O(V + E) for adjacency list + visited + parent map  
+   - **Status**: ✅ Implemented + tested  
+   - **Learning**: BFS can detect cycles in undirected graphs by using parent tracking to ignore trivial back edges.  
+
+---
+
+2. **Cycle Detection in Undirected Graph (DFS)**  
+   - **Topic**: Graph / DFS / Cycle Detection / Undirected  
+   - **Approach**:  
+     - Built **adjacency list** from edges.  
+     - For each unvisited node, recursively performed **DFS**.  
+     - Tracked **parent** of each node.  
+     - If a neighbor is visited and not the parent → cycle detected.  
+   - **Complexity**:  
+     - Time: O(V + E)  
+     - Space: O(V + E) for adjacency list + visited + parent map + recursion stack  
+   - **Status**: ✅ Implemented + tested  
+   - **Learning**: DFS can detect cycles similarly; recursion stack not needed for undirected graphs because parent check handles trivial back edges.  
+
+---
+
+3. **Cycle Detection in Directed Graph (DFS with Recursion Stack)**  
+   - **Topic**: Graph / DFS / Cycle Detection / Directed  
+   - **Approach**:  
+     - Built **adjacency list** from edges.  
+     - For each unvisited node, recursively performed **DFS**.  
+     - Tracked **recursion stack (`resStack`)** to mark nodes currently in the DFS path.  
+     - If a neighbor is visited and in `resStack` → cycle detected.  
+     - Backtracked by setting `resStack[node] = false` after exploring neighbors.  
+   - **Complexity**:  
+     - Time: O(V + E)  
+     - Space: O(V + E) for adjacency list + visited + recursion stack  
+   - **Status**: ✅ Implemented + tested  
+   - **Learning**: In directed graphs, visited alone isn’t enough; recursion stack ensures cycles are detected only within the current DFS path.  
+
+
 ### 📜 Day 45 – August 23, 2025  
 
 ---
